@@ -61,7 +61,7 @@ Training performs the following steps:
 
 1. Load images and assign labels
 2. Extract SIFT descriptors
-3. Build BoW dictionary (`k=300` by default)
+3. Build BoW dictionary
 4. Convert descriptors into normalized BoW histograms
 5. Extract HOG descriptors
 6. Fuse features
