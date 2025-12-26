@@ -20,7 +20,7 @@ This project proposes a feature-fusion approach using:
   \[
   X*{final} = [X*{BoW} \; || \; X\_{HOG}]
   \]
-- **Classification** using Linear SVM with hyperparameter optimization
+- **Classification** using Linear SVM 
 
 The pipeline is optimized for speed, low memory usage, and deployability on resource-limited systems.
 
@@ -65,7 +65,7 @@ Training performs the following steps:
 4. Convert descriptors into normalized BoW histograms
 5. Extract HOG descriptors
 6. Fuse features
-7. Train Linear SVM via GridSearchCV
+7. Train Linear SVM
 8. Save model to `.sav` file
 9. Save BoW dictionary
 
